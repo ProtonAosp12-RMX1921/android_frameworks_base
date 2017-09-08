@@ -903,4 +903,10 @@
       <!-- Setting a placeholder will avoid using the SystemUI icon on the splash screen.  -->
       <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_blank</item>
     </style>
+
+    <!-- Pure Tuner Theme-->
+    <style name="ExTunerSettings" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="preferenceTheme">@style/TunerPreferenceTheme</item>
+    </style>
+
 </resources>
